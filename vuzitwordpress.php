@@ -3,7 +3,7 @@
 Plugin Name: VuzitWordPress
 Plugin URI: http://www.vuzit.com
 Description: Vuzit AJAX Document viewer WordPress plugin
-Version: 1.0.0
+Version: 1.0.1
 Author: Brent Matzelle
 Author URI: http://www.vuzit.com
 
