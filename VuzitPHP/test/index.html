@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>VuzitPHP Test Page</title>
+  <body onload="">
+    <h1>Tests</h1>
+    <ul>
+      <li>
+        <a href="test.php">test.php</a>
+        <ul>
+          <li>To run this you have to create a URL to test.php like so: test.php?puk=abc&amp;prk=123&amp;c=load</li>
+        </ul>
+      </li>
+      <li>
+        Sub-commands:
+        <ul>
+          <li>upload</li>
+          <li>delete</li>
+          <li>load</li>
+          <li>page</li>
+          <li>event</li>
+          <li>search</li>
+        </ul>
+      </li>
+      <li>
+        Global parameters:
+        <ul>
+          <li>puk - Public key (REQUIRED)</li>
+          <li>prk - Private key (REQUIRED)</li>
+          <li>su - Service URL</li>
+        </ul>
+      </li>
+      <li>
+        Upload parameters:
+        <ul>
+          <li>path - Path to the file to upload (REQUIRED)</li>
+          <li>s - secure, Set to "1" for true or "0" for false</li>
+          <li>p - download_pdf, Set to "1" for true or "0" for false</li>
+          <li>d - download_document, Set to "1" for true or "0" for false</li>
+        </ul>
+      </li>
+      <li>
+        Load parameters:
+        <ul>
+          <li>id - Document web ID (REQUIRED)</li>
+          <li>p - Preview range</li>
+          <li>w - Watermark label</li>
+        </ul>
+      </li>
+      <li>
+        Delete parameters:
+        <ul>
+          <li>id - Document web ID (REQUIRED)</li>
+        </ul>
+      </li>
+      <li>
+        Page parameters:
+        <ul>
+          <li>id - Document id to load</li>
+          <li>i - Included pages for the request (e.g. "5,7-15")</li>
+          <li>l - Limit the number of results</li>
+          <li>o - Offsets the results at this record</li>
+        </ul>
+      </li>
+      <li>
+        Event parameters:
+        <ul>
+          <li>e - Event type to load</li>
+          <li>id - Document id to load</li>
+          <li>cu - Custom value to load</li>
+          <li>l - Limit the number of results</li>
+          <li>o - Output type: "html" or "csv".  The default is "html".</li>
+        </ul>
+      </li>
+      <li>
+        Search parameters:
+        <ul>
+          <li>q - Query keywords</li>
+          <li>l - Limits the results to this many</li>
+          <li>o - Offsets the results at this record</li>
+        </ul>
+      </li>
+  </body>
+</html>
+
